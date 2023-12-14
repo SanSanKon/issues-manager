@@ -1,0 +1,87 @@
+.issues-container {
+    color: #1F2328;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    // width: 100%;
+    h2 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 0 0.5rem;
+        .first-span {
+            margin: 0.5rem 0;
+        }
+        .second-span {
+            margin: 0.5rem 0 0;
+        }
+        @media screen and (max-width: 435px) {
+            font-size: 1.2rem;
+        }
+    }
+    .issues-listContainer {
+        margin: 0;
+        padding: 0;
+        li {
+            border: 1px solid #d0d7de;
+            border-radius: 0.375rem;
+            list-style: none;
+            margin: 0 0 1rem;
+            padding: 0.5rem;
+            h3 {
+                margin: 0 0 0.5rem;
+                text-decoration: underline;
+            }
+            p {
+                margin: 0 0 0.5rem;
+            }
+            .comment-form {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                width: 50%;
+                @media screen and (max-width: 768px) {
+                    width: 75%;
+                }
+                textarea {
+                    background: #fff;
+                    border: 1px solid #d0d7de;
+                    border-radius: 0.375rem;
+                    color: #1f2328;
+                    margin: 0 0 0.5rem;
+                    width: 100%;
+                }
+                button {
+                    background: #1f883d;
+                    border: 1px solid #d0d7de;
+                    border-radius: 5px;
+                    color: #fff;
+                    justify-content: flex-end;
+                    margin: 0;
+                    padding: 0.5rem;
+                    width: 25%;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    @media screen and (max-width: 855px) {
+                        width: 35%;
+                    }
+                    @media screen and (max-width: 435px) {
+                        width: 45%;
+                    }
+                    @media screen and (max-width: 350px) {
+                        width: 55%;
+                    }
+                }
+            }
+        }
+        .navlink-container{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .navlink {
+                color: #656d76;
+            }
+        }
+    }
+}

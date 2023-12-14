@@ -1,0 +1,93 @@
+.repossearch-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    h2 {
+        color: #1F2328;
+        margin: 0 0 0.5rem;
+        text-align: center;
+        @media screen and (max-width: 425px) {
+            font-size: 1rem;
+        }
+    }
+    .form-wrapper {
+        align-items: center;
+        background: #f6f8fa;
+        border: 1px solid #d8dee4;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 1rem 0.5rem;
+        width: 35%;
+        @media screen and (max-width: 625px) {
+            width: 50%;
+        }
+        @media screen and (max-width: 425px) {
+            width: 70%;
+        }
+        p {
+            color: #1F2328;;
+            font-size: 1.2rem;
+            margin: 0 0 0.5rem;
+            text-align: center;
+        }
+        .repossearch-form {
+            align-items: center;
+            color: #1F2328;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            width: 100%;
+            .owner-container, 
+            .repo-container{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                margin: 0 0 1rem;
+                width: 65%;
+                @media screen and (max-width: 425px) {
+                    width: 80%;
+                }
+                    .repossearch-labelOne, 
+                    .repossearch-labelTwo {    
+                        font-size: 1.2rem;
+                        margin: 0 0 0.5rem;
+                        @media screen and (max-width: 425px) {
+                            font-size: 1rem;
+                        }
+                    }
+                    input {
+                        background-color: #fff;
+                        border: 1px solid #d0d7de;
+                        border-radius: 6px;
+                        color: #1F2328;
+                        font-size: 0.875rem;
+                        padding: 5px 12px;
+                        width: 100%;
+                    }
+                }
+            button {
+                background: #1f883d;
+                border: none;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 0.85rem;
+                font-weight: 600;
+                padding: 0.5rem 1rem;
+                width: 65%;
+                &:hover {
+                    cursor: pointer;
+                }
+                @media screen and (max-width: 425px) {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

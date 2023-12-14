@@ -1,0 +1,14 @@
+body {
+    background: #FFFFFF;
+    box-sizing: content-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@import "./ReposSearch.scss";
+@import "./IssuePages.scss";
+@import "./AuthorProfile.scss";
+@import "./Loading.scss";
+@import "./Error.scss";

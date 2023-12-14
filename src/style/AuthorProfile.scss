@@ -1,0 +1,29 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+    @media screen and (max-width: 425px) {
+        width: 90%;
+    }
+    .user-info {
+        border: 1px solid #d8dee4;
+        border-radius: 10px;
+        color: #1F2328;
+        margin: 0 0 0.5rem;
+        padding: 0.5rem;
+        h2{
+            margin: 0 0 0.5rem;
+            @media screen and (max-width: 425px) {
+                font-size: 1rem;
+            }
+        }
+        p{
+            font-size: 1rem;
+            margin: 0 0 0.5rem;
+            @media screen and (max-width: 425px) {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
