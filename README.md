@@ -53,6 +53,7 @@ Disadvantages:
 - The problem is clear, of all the available solutions, using HashRouter worked. I know that this is not recommended, but I have not found a more suitable solution, unfortunately.
 
 -----RUS-----
+
 Это мой первый опыт написания подобных файлов, поэтому не судите строго, пожалуйста.
 
 # Название проекта и краткое описание проекта
